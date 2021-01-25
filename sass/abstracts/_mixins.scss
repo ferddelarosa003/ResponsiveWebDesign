@@ -1,0 +1,8 @@
+// used to fix height shrinking caused by float
+@mixin clearfix{
+    &::after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+}
